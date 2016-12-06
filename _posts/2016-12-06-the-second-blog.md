@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Jingwei!"
 date:   2016-12-06 21:18:01 +0800
 categories:jingwei
-tag: jekyll
+tag: Jingwei
 ---
 
 * content
