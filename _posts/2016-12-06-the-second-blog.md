@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-date:   2014-11-17 13:31:01 +0800
-categories: jekyll
+date:   2016-12-06 21:18:01 +0800
+categories:jingwei
 tag: jekyll
 ---
 
@@ -10,22 +10,18 @@ tag: jekyll
 {:toc}
 
 
-First POST build by Jekyll.
+First POST build by WeiJing.
 
 
-诫子书
+hi，this is my first blog
 ------------------------
 
-![诫子书]({{ '/styles/images/jiezishu.jpg' | prepend: site.baseurl  }})
 
 
-[诸葛亮](#)
+[jingwei](#)
 
 
-夫君子之行，静以修身，俭以养德。非淡泊(澹泊)无以明志，非宁静无以致远。夫学须静也，才须学也。非学无以广才，非志无以成学。淫慢则不能励精，险躁则不能冶性。
-年与时驰，意与日去，遂成枯落，多不接世，悲守穷庐，将复何及！
+总该说点什么。
+好像走过的路渐渐漫远，注视过的东西渐渐繁多，听过的声音五花八门闻过的气味渐渐千奇百怪，接纳世界的不同与丰富，遇到的人却越来越少，对之越来越苛刻。
+我的生命日历又撕了一页。竟没有可说的了。
 
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
