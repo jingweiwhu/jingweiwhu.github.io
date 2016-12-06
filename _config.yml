@@ -1,0 +1,38 @@
+# Site settings
+name: 经薇的博客
+email: jingweiwhu@126.com
+author: Wei Jing
+url: 
+github: https://github.com/jingweiwhu/
+baseurl: ""
+description: Actually, less is more!
+banner: 学而不思则罔，思而不学则殆。
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: jingweiwhu
+highlighter: rouge
+
+# Build settings
+markdown: kramdown
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+# FB:
+  # comments :
+    # provider : duoshuo
+    # duoshuo:
+       # short_name : luoyan35714
+    # disqus :
+       # short_name : freudkang
+    # facebook :
+    #   appid : 123
+    #   num_posts: 5
+    #   width: 580
+    #   colorscheme: light
