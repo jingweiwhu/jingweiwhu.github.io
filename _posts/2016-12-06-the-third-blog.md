@@ -6,8 +6,6 @@ categories:jingwei
 tag: Jingwei
 ---
 
-* content
-{:toc}
 
 
 First POST build by WeiJing.
@@ -17,8 +15,6 @@ hi，this is my first blog
 ------------------------
 
 
-
-[jingwei](#)
 
 
 总该说点什么。
