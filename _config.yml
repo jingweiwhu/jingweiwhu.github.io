@@ -1,12 +1,12 @@
 # Site settings
-name: 经薇的博客
+name: Jingweiwhu Blog
 email: jingweiwhu@126.com
 author: Wei Jing
 url: 
 github: https://github.com/jingweiwhu/
 baseurl: ""
 description: Actually, less is more!
-banner: 学而不思则罔，思而不学则殆。
+banner: 我低若尘埃，我心怀云彩。
 
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
