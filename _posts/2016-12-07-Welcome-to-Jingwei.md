@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Jingwei!"
-date:   2016-12-06 21:18:01 +0800
+date:   2016-12-07 
 categories:jingwei
 tag: Jingwei
 ---
