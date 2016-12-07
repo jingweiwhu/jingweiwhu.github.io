@@ -1,38 +1,44 @@
-# Site settings
-name: Jingweiwhu Blog
-email: jingweiwhu@126.com
-author: Wei Jing
-url: 
-github: https://github.com/jingweiwhu/
-baseurl: ""
-description: Actually, less is more!
-banner: 我低若尘埃，我心怀云彩。
+title: Your awesome title
+email: your-email@domain.com
+description: description
+baseurl: /Jekyll-Avalon
+url: http://joshuaavalon.github.io
+twitter_username: joshuaavalon
+github_username:  joshuaavalon
 
-#permalink: /:categories/:year/:month/:day/:title/
-permalink: /:year/:month/:day/:title/
-paginate: 10
+sass:
+  style: compressed
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+paginate: 12
+paginate_path: "/:num/"
 
-github_username: jingweiwhu
-highlighter: rouge
+author_img_s: /img/author_s.png
+author_img: /img/author.png
+
+navigation:
+  - text: Home
+    url: /
+  - text: Categories
+    url: /categories.html
+  - text: Tags
+    url: /tags.html
+
+read_more: Read More
+env: production
+minify_html: false # Set to true only when it is production. Increase significant build time.
 
 # Build settings
 markdown: kramdown
 
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
+sticky: sticky # Tag used for sticky post
+sticky_count: 3 # Number of sticky post shown
 
-# FB:
-  # comments :
-    # provider : duoshuo
-    # duoshuo:
-       # short_name : luoyan35714
-    # disqus :
-       # short_name : freudkang
-    # facebook :
-    #   appid : 123
-    #   num_posts: 5
-    #   width: 580
-    #   colorscheme: light
+gems:
+  - jekyll-paginate
+  - jekyll-feed
+  
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
