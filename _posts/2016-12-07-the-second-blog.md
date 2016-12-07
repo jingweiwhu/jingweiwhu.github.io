@@ -16,7 +16,7 @@ First POST build by Jingwei.
 小确幸
 ------------------------
 
-![小确幸]({{ '/styles/images/xiaoquexing.jpg' | prepend: site.baseurl  }})
+![小确幸]({{ '/styles/images/xiaoquexing.JPG' | prepend: site.baseurl  }})
 
 
 [经薇](#)
