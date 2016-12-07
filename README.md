@@ -1,35 +1,58 @@
-# Jekyll-Avalon
-[Demo](http://joshuaavalon.github.io/Jekyll-Avalon)
-![](https://raw.githubusercontent.com/joshuaavalon/Jekyll-Avalon/master/_screenshot/001.png)
+# jekyll-ttskch-theme
 
-## About
-Jekyll-Avalon is a [Materialize](https://github.com/dogfalo/materialize) Jekyll theme.
+A simple and customizable theme for Jekyll.
 
-Featuring:
-* Material Design
-* Responsive Web Design
-* Tags and categories browsing
-* Lazy loading images
+> This theme was renamed from _jekyll-**qck**-theme_ to _jekyll-**tch**-theme_ at 2016.06.02.  
+> And renamed again from _jekyll-**tch**-theme_ to _jekyll-**ttskch**-theme_ at 2016.09.23.
 
-## Installation
-This theme ***CANNOT* be built by GitHub. You have to build it yourself.
-Use the following command to build.
+## Screen shot
 
-```
-bundle install
-jekyll serve
-```
+![image](https://cloud.githubusercontent.com/assets/4360663/18776176/62611b38-81a2-11e6-875b-86a66aa8f15c.png)
 
-Then upload the content in `_site` to GitHub or your host.
+## Features
 
-## Config
-Change everything you need in `_config.yml`. Change the footer in `_includes/footer.html`.
+* A lot of Markdown features (also GitHub Flavored Markdown)
+* `:emoji:` ready :+1:
+* Easy color-scheme customization
+* Tags list page
+* Monthly Archives page
+* Search feature without any Jekyll plugins
+* `<!--more-->` tag feature
+* Anchor links for each headings
+* Sticky side nav
+* Responsive
+* OGP ready
+* Share buttons ready
 
-If you want to change the color, go [here](https://github.com/dogfalo/materialize) to download SASS version 
-and replace the link in `_includes/head.html`.
+## Getting started
 
-For comment support, you can use [Disqus](https://disqus.com/) and add the embed code to `_layouts/post.html`.
-Same for Google Analytics, add the embed code to `_includes/script.html`.
+1. [Fork me](https://github.com/ttskch/jekyll-ttskch-theme/fork)
+2. Rename the repository from `jekyll-ttskch-theme` to `{username}.github.io` ([learn more](https://pages.github.com/))
+3. Modify `_config.yml`
+4. Modify `_sass/base/_variables.scss` if you need to change colors or font sizes
+5. Add new posts into `_posts/` :smiley:
 
-## Post
-All the usable fields available are in `2016-10-27-welcome-to-jekyll.markdown`.
+## Demo
+
+You can see live demo at below:
+
+* https://ttskch.github.io/jekyll-ttskch-theme/
+
+## Thanks for using :wink:
+
+* http://ttskch.github.io
+* http://sitaramshelke.github.io
+* http://jffourmond.github.io
+* http://vbflash8.github.io
+* http://luqitao.github.io
+* http://harusametime.github.io
+* http://gitzxon.github.io
+* http://hutsonlu.github.io
+* http://k0-1.github.io
+* http://anthonygore.github.io
+* http://getjsdojo.github.io
+* http://georgezhuo.github.io
+* http://neontapir.github.io
+* https://blog.guilhermegarnier.com
+
+Please PR if you want to add your blog.
