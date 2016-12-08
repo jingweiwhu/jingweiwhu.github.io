@@ -3,7 +3,7 @@ layout: post
 title:  我的2015之良月
 date:   2015-10-30 20:05:00 +0800
 categories: 卑陬
-tag:彩笺尺素
+tag: 彩笺尺素
 ---
 
 * content
