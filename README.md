@@ -1,115 +1,85 @@
-# LessOrMore
+# { Personal } Jekyll Theme
+![Build Status](https://travis-ci.org/PanosSakkos/personal-jekyll-theme.svg?branch=master)
+![license](https://img.shields.io/badge/license-MIT-blue.svg?link=https://github.com/dono-app/ios/blob/master/LICENSE)
+[![Join the chat at https://gitter.im/PanosSakkos/personal-jekyll-theme](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/PanosSakkos/personal-jekyll-theme?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+{ Personal } is a free responsive Jekyll theme, about you :wink:
 
-致谢
-====================================
-+ 感谢[Less官网](http://lesscss.cn/)的样式，本Jekyll框架的样式都是基于Less官网的样式直接拷贝过来的。只是重构了JS，并且加入了Jekyll语法而已。
-+ 感谢[Github](https://github.com/)提供的代码维护和发布平台
-+ 感谢[Jekyll](https://jekyllrb.com/)团队做出如此优秀的产品
-+ 感谢[Solar](https://github.com/mattvh/solar-theme-jekyll)的原作者[Matt Harzewski](http://www.webmaster-source.com/)，在`2014.11`-`2016.09`的两年间，我的博客选用了此样式模版
+You can watch it in action [here](https://panossakkos.github.io/personal-jekyll-theme/)!
 
+<img src="https://github.com/panossakkos/personal-jekyll-theme/raw/master/.github/personal-mobile.mov.gif" height="480">
 
-使用
-====================================
+<img src="https://github.com/panossakkos/personal-jekyll-theme/raw/master/.github/personal-desktop.mov.gif" height="600" width="960">
 
-下载
-------------------------------------
+## What value does { Personal } add
 
-使用git从[LessOrMore](https://github.com/luoyan35714/LessOrMore.git)主页下载项目
+* Fork of [Timeline](https://github.com/kirbyt/timeline-jekyll-theme) (mashup of [Grayscale by Start Bootstrap](https://github.com/IronSummitMedia/startbootstrap-grayscale) and [Agency Jekyll Theme](https://github.com/y7kim/agency-jekyll-theme))
+  * Modern and minimal design
+    * Responsive templates for home page, blog archive and posts. Looks great on mobile, tablet, and desktop devices
+    * Sweet animations
+    * Gracefully degrades in older browsers. Compatible with Internet Explorer 8+ and all modern browsers
+  * Timeline
+    * Tell your story so far with a sleek timeline of dates, pictures and descriptions
+  * White on black text, making the reading experience tireless
+  * Google analytics  
+* Customization and full control of your website and blog through the site config
+* Customization of the website's coloring
+* Blogging functionality
+  * Preview of the latest post in the home page
+  * Archive page
+  * Syntax highlighting
+  * Emojis
+  * Gesture navigation in archive and post pages by swiping
+  * Hashtags
+  * Categories
+  * Disqus comments
+  * Bootstrap share buttons
+  * RSS feed
+* Author blurb under the posts
+* 404 page
+* iOS and Android Web App mode
+* Enforcing of https protocol
+* Protection from email harvesting
+* Sitemap
+* Travis CI integration with [html-proofer](https://github.com/gjtorikian/html-proofer)
 
-``` bash
-git clone https://github.com/luoyan35714/LessOrMore.git
+## Documentation
+
+The theme contains documentation in the form of [blog posts](https://panossakkos.github.io/personal-jekyll-theme/blog/index.html).
+
+## How to run locally
+
+First, you need to install jekyll and the dependencies of { Personal } by running:
+
+```shell
+./scripts/install
 ```
 
-配置
-------------------------------------
+Then, you can build and serve your website by simply running:
 
-`LessOrMore`项目需要配置的只有一个文件`_config.yml`，打开之后按照如下进行配置。
-
-> 特别注意`baseurl`的配置。如果是`***.github.io`项目，不修改为空''的话，会导致JS,CSS等静态资源无法找到的错误
-
-``` bash
-name: 博客名称
-email: 邮箱地址
-author: 作者名
-url: 个人网站
-### baseurl修改为项目名，如果项目是'***.github.io'，则设置为空''
-baseurl: "/LessOrMore"
-resume_site: 个人简历网站
-github: github地址
-github_username: github用户名称
-FB:
-  comments :
-    provider : duoshuo
-    duoshuo:
-        short_name : 多说账户
-    disqus :
-        short_name : Disqus账户
+```shell
+./scripts/serve-production
 ```
 
-如何写文章
-------------------------------------
+To serve across lan (requires su to forward the port 4000 over lan):
 
-在`LessOrMore/_posts`目录下新建一个文件，可以创建文件夹并在文件夹中添加文件，方便维护。在新建文件中粘贴如下信息，并修改以下的`titile`,`date`,`categories`,`tag`的相关信息，添加`* content {:toc}`为目录相关信息，在进行正文书写前需要在目录和正文之间输入至少2行空行。然后按照正常的Markdown语法书写正文。
-
-``` bash
----
-layout: post
-#标题配置
-title:  标题
-#时间配置
-date:   2016-08-27 01:08:00 +0800
-#大类配置
-categories: document
-#小类配置
-tag: 教程
----
-
-* content
-{:toc}
-
-
-我是正文。我是正文。我是正文。我是正文。我是正文。我是正文。
+```shell
+./scripts/serve-lan-production
 ```
 
-执行
-------------------------------------
+## OSS used in { Personal }
 
-``` bash
-jekyll server
-```
+One of the reasons { Personal } is real is the following OSS projects:
 
-效果
-------------------------------------
-打开浏览器并输入URL`http://localhost:4000/`,回车。
+  1. [Grayscale](http://startbootstrap.com/template-overviews/grayscale/)
+  2. [hammer.js](https://hammerjs.github.io/)
+  3. [highlightjs](https://highlightjs.org/)
+  4. [RRSSB](https://github.com/kni-labs/rrssb)
+  5. [Timeline](https://github.com/kirbyt/timeline-jekyll-theme)
+  6. [typed.js](https://github.com/mattboldt/typed.js/)
 
-
-为什么重复造轮子
-====================================
-
-很明显，我在重复造轮子。在13年接触到GIT，14年末接触到Jekyll，然后搭建了自己的博客，当时是选用了[JekyllThemes](http://jekyllthemes.org/)上的[Solar](https://github.com/mattvh/solar-theme-jekyll)主题，一直到现在。不过中间一直感觉页面风格还是偏暗，阅读不方便。并且有一些小的细节做的不是很好。在页面的跨平台浏览上有一些瑕疵。并且不区分一级标题和二级标题，导致没有重点强调。诸如此类，用了2年，用的越多，越发吃力，中间就一直在寻找新的能够让我一眼认定的主题。
-
-虽然设计好看的主题很多。但是真正适合拿来做博客的却不多。中间一直没有找到合适的主题。直到有一天看到Less官网的主题之后，豁然觉得这就是我的博客想要的样子。简单而又不平凡。所以就决定了要把博客迁移到这个主题，然后拿了两天晚上来把这个主题做出来。
-
-重复造了轮子，但是这个是迄今为止自己觉得最适合我的博客的轮子，所以是值得的！
-
-关于作者
-====================================
-
-热爱开源，热爱折腾的Java程序猿。更多个人信息和联系方式可以参照[我的简介](http://www.hifreud.com/Resume.io/)。
-
-关于打赏
-====================================
-
-如果你也像我一样在寻觅一个简洁的博客主题。不妨试下LessOrMore。
-
-当然你也可以为了我的工作打赏！以激励我做出更好的东西。
-
-支付宝
-----------------
-
-<img src="/styles/images/zhifubao.PNG" alt="支付宝二维码付款给Freud" width="310" />
-
-微信
-----------------
-![微信二维码付款给Freud](/styles/images/weixin.png)
+<div style="font-size:16px;margin:0 auto;width:300px">
+    <a href="https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi">
+        <img src="https://blockchain.info/Resources/buttons/donate_64.png"/>
+    </a>
+</div>
