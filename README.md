@@ -1,85 +1,296 @@
-# { Personal } Jekyll Theme
-![Build Status](https://travis-ci.org/PanosSakkos/personal-jekyll-theme.svg?branch=master)
-![license](https://img.shields.io/badge/license-MIT-blue.svg?link=https://github.com/dono-app/ios/blob/master/LICENSE)
-[![Join the chat at https://gitter.im/PanosSakkos/personal-jekyll-theme](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/PanosSakkos/personal-jekyll-theme?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# <a name="jalpc"></a>Jalpc. [![Analytics](https://ga-beacon.appspot.com/UA-73784599-1/welcome-page)](https://github.com/Jack614/jalpc_jekyll_theme)
 
-{ Personal } is a free responsive Jekyll theme, about you :wink:
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badge/)
 
-You can watch it in action [here](https://panossakkos.github.io/personal-jekyll-theme/)!
+<http://www.jack003.com>
 
-<img src="https://github.com/panossakkos/personal-jekyll-theme/raw/master/.github/personal-mobile.mov.gif" height="480">
+![Blog](blog.gif)
 
-<img src="https://github.com/panossakkos/personal-jekyll-theme/raw/master/.github/personal-desktop.mov.gif" height="600" width="960">
+* [Ad](#ad)
+* [Getting Started](#getting-started)
+    * [Fork, then clone](#fork-then-clone)
+    * [Modify _config.yml](#modify-configyml)
+    * [Index page](#index-page)
+    * [Modify _data/\*.yml](#mofify-datayml)
+    * [Jekyll Serve](#jekyll-serve)
+    * [Using Github Pages](#using-github-pages)
+    * [Pagination](#pagination)
+    * [Page counter](#page-counter)
+    * [Multilingual Page](#multilingual-page)
+    * [Web analytics](#web-analytics)
+    * [Comment](#comment)
+    * [Share](#share)
+    * [Search engines](#search-engines)
+    * [CNAME](#cname)
+    * [Put in a Jalpc Plug](#put-in-a-jalpc-plug)
+    * [Enjoy](#enjoy)
+* [Upgrading Jalpc](#upgrading-jalpc)
+    * [Ensure there's an upstream remote](#ensure-theres-an-upstream-remote)
+    * [Pull in the latest changes](#pull-in-the-latest-changes)
+* [Thanks to the following](#thanks-to-the-following)
+* [Contributing](#contributing)
 
-## What value does { Personal } add
+This is a simple, beautiful and swift theme for Jekyll. It's mobile first, fluidly responsive, and delightfully lightweight.
 
-* Fork of [Timeline](https://github.com/kirbyt/timeline-jekyll-theme) (mashup of [Grayscale by Start Bootstrap](https://github.com/IronSummitMedia/startbootstrap-grayscale) and [Agency Jekyll Theme](https://github.com/y7kim/agency-jekyll-theme))
-  * Modern and minimal design
-    * Responsive templates for home page, blog archive and posts. Looks great on mobile, tablet, and desktop devices
-    * Sweet animations
-    * Gracefully degrades in older browsers. Compatible with Internet Explorer 8+ and all modern browsers
-  * Timeline
-    * Tell your story so far with a sleek timeline of dates, pictures and descriptions
-  * White on black text, making the reading experience tireless
-  * Google analytics  
-* Customization and full control of your website and blog through the site config
-* Customization of the website's coloring
-* Blogging functionality
-  * Preview of the latest post in the home page
-  * Archive page
-  * Syntax highlighting
-  * Emojis
-  * Gesture navigation in archive and post pages by swiping
-  * Hashtags
-  * Categories
-  * Disqus comments
-  * Bootstrap share buttons
-  * RSS feed
-* Author blurb under the posts
-* 404 page
-* iOS and Android Web App mode
-* Enforcing of https protocol
-* Protection from email harvesting
-* Sitemap
-* Travis CI integration with [html-proofer](https://github.com/gjtorikian/html-proofer)
+It's pretty minimal, but leverages large type and drastic contrast to make a statement, on all devices.
 
-## Documentation
+The landing page of the blog is multilingual page.
 
-The theme contains documentation in the form of [blog posts](https://panossakkos.github.io/personal-jekyll-theme/blog/index.html).
+It is my pleasure to contact me, you can give me your website or some advice about my website. Let's build a wonderful Jekyll theme together!
 
-## How to run locally
+## <a name="ad"></a>Ad
 
-First, you need to install jekyll and the dependencies of { Personal } by running:
+[Jalpc-A](https://github.com/Jack614/Jalpc-A): another Jekyll theme written by [AngularJS](https://angularjs.org/).
 
-```shell
-./scripts/install
+##  <a name="getting-started"></a>Getting Started
+
+If you're completely new to Jekyll, I recommend checking out the documentation at <http://jekyllrb.com> or there's a tutorial by Smashing Magazine.
+
+### <a name="fork-then-clone"></a> Fork, then clone
+
+**Fork** the repo, and then **clone** it so you've got the code locally.
+
+```
+$ git clone https://github.com/<your githubname>/jalpc_jekyll_theme.git
+$ cd jalpc_jekyll_theme
+$ gem install jekyll # If you don't have jekyll installed
+$ rm -rf _site && jekyll server
 ```
 
-Then, you can build and serve your website by simply running:
+### <a name="modify-configyml"></a>Modify `_config.yml`
 
-```shell
-./scripts/serve-production
+The _config.yml located in the root of the jalpc_jekyll_theme directory contains all of the configuration details for the Jekyll site. The defaults are:
+
+``` yml
+# Website settings
+title: "Jalpc"
+description: "Jack's blog,use Jekyll and github pages."
+keywords: "Jack,Jalpc,blog,Jekyll,github,gh-pages"
+
+baseurl: "/"
+url: "http://www.jack003.com"
+# url: "http://127.0.0.1:4000"
+
+# author
+author:
+  name: 'Jack'
+  first_name: 'Jia'
+  last_name: 'Kun'
+  email: 'me@jack003.com'
+  facebook_username: 'jiakunnj'
+  github_username: 'Jack614'
+  head_img: 'static/img/landing/Jack.jpg'
+...
 ```
 
-To serve across lan (requires su to forward the port 4000 over lan):
+### <a name="#index-page"></a>Index page
 
-```shell
-./scripts/serve-lan-production
+The index page is seprated into several sections and they are located in `_includes/sections`,the configuration is in `_config.yml` and section's detail configuration is in `_data/*.yml`.
+
+#### <a name="mofify-datayml"></a>Modify `_data/*.yml`
+
+These files are used to dynamically render pages, so you almost don't have to edit *html files* to change your own theme, besides you can use `jekyll serve --watch` to reload changes.
+
+The following is mapping between *yml file* to *sections*.
+
+* blog.yml  ==>  _includes/sections/blog.html
+* careers.yml  ==>  _includes/sections/career.html
+* links.yml  ==>  _includes/sections/links.html
+* projects.yml  ==>  _includes/sections/projects.html
+* skills.yml  ==>  _includes/sections/skills.html
+
+### <a name="jekyll-serve"></a>Jekyll Serve
+
+Then, start the Jekyll Server. I always like to give the --watch option so it updates the generated HTML when I make changes.
+
+```
+$ jekyll serve --watch
 ```
 
-## OSS used in { Personal }
+Now you can navigate to localhost:4000 in your browser to see the site.
 
-One of the reasons { Personal } is real is the following OSS projects:
+### <a name="using-github-pages"></a>Using Github Pages
 
-  1. [Grayscale](http://startbootstrap.com/template-overviews/grayscale/)
-  2. [hammer.js](https://hammerjs.github.io/)
-  3. [highlightjs](https://highlightjs.org/)
-  4. [RRSSB](https://github.com/kni-labs/rrssb)
-  5. [Timeline](https://github.com/kirbyt/timeline-jekyll-theme)
-  6. [typed.js](https://github.com/mattboldt/typed.js/)
+You can host your Jekyll site for free with Github Pages. [Click here](https://pages.github.com) for more information.
 
-<div style="font-size:16px;margin:0 auto;width:300px">
-    <a href="https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi">
-        <img src="https://blockchain.info/Resources/buttons/donate_64.png"/>
-    </a>
-</div>
+A configuration tweak if you're using a gh-pages sub-folder
+
+In addition to your github-username.github.io repo that maps to the root url, you can serve up sites by using a gh-pages branch for other repos so they're available at github-username.github.io/repo-name.
+
+This will require you to modify the _config.yml like so:
+
+``` yml
+# Welcome to Jekyll!
+
+# Site settings
+title: Website Name
+
+baseurl: "/"
+url: "http://github-username.github.io"
+# url: "http://127.0.0.1:4000"
+
+# author
+author:
+  name: nickname
+  first_name: firstname
+  last_name: lastname
+  email: your_email@example.com
+  facebook_username: facebook_example
+  github_username: 'github_example'
+  head_img: 'path/of/head/img'
+
+# blog img path
+img_path: '/path/of/blog/img/'
+```
+
+If you start server on localhost, you can turn on `# url: "http://127.0.0.1:4000"`.
+
+### <a name="pagination"></a>Pagination
+
+The pagination in jekyll is not very perfect,so I use front-end web method,there is a [blog](http://www.jack003.com/html/2016/06/04/jekyll-pagination-with-jpages.html) about the method and you can refer to [jPages](http://luis-almeida.github.io/jPages).
+
+### <a name="page-counter"></a>Page counter
+
+Many third party page counter platforms are too slow,so I count my website page view myself,the javascript file is [static/js/count.min.js](https://github.com/JiaKunUp/jalpc_jekyll_theme/blob/gh-pages/static/js/count.min.js) ([static/js/count.js](https://github.com/JiaKunUp/jalpc_jekyll_theme/blob/gh-pages/static/js/count.js)),the backend API is written with flask on [Vultr VPS](https://www.vultr.com/), detail code please see [jalpc-flask](https://github.com/JiaKunUp/jalpc-flask).
+
+### <a name="multilingual-page"></a>Multilingual Page
+
+The landing page has multilingual support with the [i18next](http://i18next.com) plugin.
+
+Languages are configured in the `config.yml` file.
+
+#### Step 1
+
+Add a new language entry
+
+```yml
+languages:
+  - locale: 'en'
+    flag: 'static/img/flags/United-States.png'
+  - locale: '<language_locale>'
+    flag: '<language_flag_url>'
+```
+
+#### Step 2
+
+Add a new json (`static/locales/<language_locale>.json`) file that contains the translations for the new locale.
+
+Example `en.json`
+
+```json
+{
+  "website":{
+    "title": "Jalpc"
+  },
+  "nav":{
+    "home": "Home",
+    "about_me": "About",
+    "skills": "Skills",
+    "career": "Career",
+    "blog": "Blog",
+    "contact": "Contact"
+  }
+}
+```
+
+#### Step 3
+
+Next you need to add html indicators in all place you want to use i18n.(`_includes/sections/*.html` and `index.html`)
+
+Example:
+
+``` html
+<a class="navbar-brand" href="#page-top" id="i18_title"><span data-i18n="website.title">{{ site.title }}</span></a>
+```
+
+#### Step 4
+
+Next you need to initialise the i18next plugin(`index.html`):
+
+``` javascript
+$.i18n.init(
+    resGetPath: 'locales/__lng__.json',
+    load: 'unspecific',
+    fallbackLng: false,
+    lng: 'en'
+}, function (t)
+    $('#i18_title').i18n();
+});
+```
+
+### <a name="web-analytics"></a>Web analytics
+
+I use [Baidu analytics](http://tongji.baidu.com/web/welcome/login), [Google analytics](https://www.google.com/analytics/) and [GrowingIO](https://www.growingio.com/) to do web analytics, you can choose either to realize it,just register a account and replace id in `_config.yml`.
+
+### <a name="comment"></a>Comment
+
+I use [Changyan](http://changyan.kuaizhan.com/) and [Disqus](https://disqus.com/) to realize comment.
+
+#### Changyan
+To configure Changyan, get the appid and conf in <http://changyan.kuaizhan.com/>. Then, in `_config.yml`, edit the changyan value to enable Changyan.
+
+#### Disqus
+To configure Disqus,you should set disqus_shortname and get public key and then, in `_config.yml`, edit the disqus value to enable Disqus.
+
+### <a name="share"></a>Share
+
+I use [bshare](http://www.bshare.cn/) to share my blog on other social network platform. You can register a count and get your share uuid.
+
+### <a name="search-engines"></a>Search engines
+
+I use javascript to realize blog search,you can double click `Ctrl` or click the icon at lower right corner of the page,the detail you can got to this repo: <https://github.com/androiddevelop/jekyll-search>.
+
+Just use it.
+
+![search](search.gif)
+
+### <a name="cname"></a>CNAME
+
+Replace your website domain in **CNAME** file.
+
+### <a name="put-in-a-jalpc-plug"></a>Put in a Jalpc Plug
+
+If you want to give credit to the Jalpc theme with a link to my personal website <http://www.jack003.com>, that'd be awesome. No worries if you don't.
+
+### <a name="enjoy"></a>Enjoy
+
+Hope you enjoy using Jalpc. If you encounter any issues, please feel free to let me know by creating an issue. I'd love to help.
+
+## <a name="upgrading-jalpc"></a>Upgrading Jalpc
+
+Jalpc is always being improved by its users, so sometimes one may need to upgrade.
+
+### <a name="ensure-theres-an-upstream-remote"></a>Ensure there's an upstream remote
+
+If `git remote -v` doesn't have an upstream listed, you can do the following to add it:
+
+```
+git remote add upstream https://github.com/Jack614/jalpc_jekyll_theme.git
+```
+
+### <a name="pull-in-the-latest-changes"></a>Pull in the latest changes
+
+```
+git pull upstream gh-pages
+```
+
+There may be merge conflicts, so be sure to fix the files that git lists if they occur. That's it!
+
+## <a name="thanks-to-the-following"></a>Thanks to the following
+
+* [Jekyll](http://jekyllrb.com)
+* [Bootstrap](http://www.bootcss.com)
+* [jPages](http://luis-almeida.github.io/jPages)
+* [i18next](http://i18next.github.io/i18next)
+* [pixyll](https://github.com/johnotander)
+* [androiddevelop](https://github.com/androiddevelop)
+
+## <a name="contributing"></a>Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
