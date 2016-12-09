@@ -1,4 +1,4 @@
-# Liu-Cheng Xu's Blog
+# JingWei's Blog
 ⭐️ [My Personal Blog](https://liuchengxu.github.io)
 
 ## About my blog
