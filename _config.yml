@@ -1,38 +1,21 @@
-# Site settings
-name: Jingwei Blog
-email: jingweiwhu@126.com
-author: Wei Jing
-url: 
-github: https://github.com/jingweiwhu/
-baseurl: ""
-description: 我低如尘埃，我心怀云彩。
-banner: 我低如尘埃，我心怀云彩。
+title:            Liucheng Xu
+description:      It is our light, not our darkness that frightens us.
+url:              # Site url.
+github_card:      # you need to replace the current github-card. ( leave blank if unwanted. )
+google_analytics: UA-73260325-1  # (leave blank if unwanted )
+disqus_shortname:                # disqus and duoshuo is an alternative option. ( leave blank if unwanted)
+duoshuo_shortname: liuchengxu
 
-#permalink: /:categories/:year/:month/:day/:title/
-permalink: /:year/:month/:day/:title/
-paginate: 10
+kramdown:
+  input:    GFM
+  syntax_highlighter:    rouge
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
-
-github_username: jingweiwhu
-highlighter: rouge
-
-# Build settings
-markdown: kramdown
-
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
-
-# FB:
-  # comments :
-    # provider : duoshuo
-    # duoshuo:
-       # short_name : luoyan35714
-    # disqus :
-       # short_name : freudkang
-    # facebook :
-    #   appid : 123
-    #   num_posts: 5
-    #   width: 580
-    #   colorscheme: light
+defaults:
+    -
+        scope:
+            path:    "_posts"
+            type:    "posts"
+        values:
+          layout:    "post"
+          disqus:    "y"
+          author:    "Liucheng Xu"
