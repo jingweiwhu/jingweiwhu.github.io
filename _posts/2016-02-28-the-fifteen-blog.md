@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  我的2016之如月
-date:   2016-02-28 20:05:00 +0800
-categories: 卑陬
-tag:彩笺尺素
+author: JingWei
+tags: Others
+math: y
+disqus: y
 ---
 
 * content

@@ -1,13 +1,11 @@
 ---
 layout: post
 title:  我的2016之玄月
-date:   2016-9-30 20:05:00 +0800
-categories: 卑陬
-tag:彩笺尺素
+author: JingWei
+tags: Others
+math: y
+disqus: y
 ---
-
-* content
-{:toc}
 
 
 时间会证明，一切都值得。
