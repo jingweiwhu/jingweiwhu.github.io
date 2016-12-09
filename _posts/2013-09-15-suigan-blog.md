@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  我的2013
+title:  2013考研奋战
 author: JingWei
 tags: Others
 math: y
