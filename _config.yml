@@ -1,10 +1,10 @@
-title:           Wei Jing
+title:            Liucheng Xu
 description:      It is our light, not our darkness that frightens us.
 url:              # Site url.
 github_card:      # you need to replace the current github-card. ( leave blank if unwanted. )
 google_analytics: UA-73260325-1  # (leave blank if unwanted )
 disqus_shortname:                # disqus and duoshuo is an alternative option. ( leave blank if unwanted)
-duoshuo_shortname: Wei Jing
+duoshuo_shortname: liuchengxu
 
 kramdown:
   input:    GFM
@@ -18,4 +18,4 @@ defaults:
         values:
           layout:    "post"
           disqus:    "y"
-          author:    "Wei Jing"
+          author:    "Liucheng Xu"
