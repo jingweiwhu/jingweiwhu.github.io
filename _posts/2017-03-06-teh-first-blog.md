@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  8428
+title:  八四二八
 author: JingWei
 tags: Others
 math: y
