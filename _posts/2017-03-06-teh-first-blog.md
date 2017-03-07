@@ -52,7 +52,7 @@ disqus: y
 刚刚科长说，根根的论文已经两万字了。我刚刚检查了一下我的论文，恩，8428。
 
 <!-- 多说评论框 start -->
-<div class="ds-thread" data-thread-key="2016/12/07/the-second-blog" data-title="我的小确幸" data-url="https://jingweiwhu.github.io/2016/12/07/the-second-blog.html"></div>
+<div class="ds-thread" data-thread-key="/2017/03/06/teh-first-blog.html" data-title="8428" data-url="https://jingweiwhu.github.io/2017/03/06/teh-first-blog.html"></div>
 
 <!-- 多说评论框 end -->
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
