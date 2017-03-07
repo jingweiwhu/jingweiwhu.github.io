@@ -50,3 +50,31 @@ disqus: y
 有一种孤独，身边多一个可谈的人，一条知心的狗，或许就可以消减。有一种孤独，茫茫天地之间独钓寒江雪，人只能各自孤独面对，素颜修行。还有一种孤独，过生日非要自己买蛋糕~~~我希望在与时间对峙的工程中，你永远是那个：能不能不爬山，能不能看看海？的爱撒娇的酷爱喝红牛的小孩。Carry 123.
 
 刚刚科长说，根根的论文已经两万字了。我刚刚检查了一下我的论文，恩，8428。
+
+<!-- 多说评论框 start -->
+<div class="ds-thread" data-thread-key="2016/12/07/the-second-blog" data-title="我的小确幸" data-url="https://jingweiwhu.github.io/2016/12/07/the-second-blog.html"></div>
+
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"jingweiwhugithub"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- 多说公共JS代码 end -->
+
+<section>
+  <h3>Latest Comments</h3>
+  <ul class="ds-recent-comments" data-num-items="10" data-show-avatars="0" data-show-time="0" data-show-title="0" data-show-admin="0" data-excerpt-length="18"></ul>
+</section>
+
+<section style="width:250px;">
+  <h3>Recently Visitors</h3>
+  <ul class="ds-recent-visitors" data-num-items="4" data-avatar-size="45" style="margin-top:10px;"></ul>
+</section>
