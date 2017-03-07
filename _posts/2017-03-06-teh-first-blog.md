@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  8428
+title:  "8428"
 author: JingWei
 tags: Others
 math: y
