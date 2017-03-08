@@ -51,30 +51,5 @@ disqus: y
 
 刚刚科长说，根根的论文已经两万字了。我刚刚检查了一下我的论文，恩，8428。
 
-<!-- 多说评论框 start -->
-<div class="ds-thread" data-thread-key="/2017/03/06/teh-first-blog.html" data-title="8428" data-url="https://jingweiwhu.github.io/2017/03/06/teh-first-blog.html"></div>
 
-<!-- 多说评论框 end -->
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"jingweiwhugithub"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0] 
-		 || document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>
-<!-- 多说公共JS代码 end -->
 
-<section>
-  <h3>Latest Comments</h3>
-  <ul class="ds-recent-comments" data-num-items="10" data-show-avatars="0" data-show-time="0" data-show-title="0" data-show-admin="0" data-excerpt-length="18"></ul>
-</section>
-
-<section style="width:250px;">
-  <h3>Recently Visitors</h3>
-  <ul class="ds-recent-visitors" data-num-items="4" data-avatar-size="45" style="margin-top:10px;"></ul>
-</section>
